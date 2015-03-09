@@ -1,0 +1,21 @@
+
+config.tx_extbase{
+    persistence{
+        classes{
+
+            TYPO3\CMS\Extbase\Domain\Model\FileReference {
+                subclasses {
+                    Tx_IlIsotopeImages_Isotope = Ilisotope\IlIsotopeImages\Domain\Model\Isotope
+					
+          		}
+            }
+            Ilisotope\IlIsotopeImages\Domain\Model\Isotope {
+                mapping {
+                    tableName = sys_file_reference
+                    recordType = Tx_IlIsotopeImages_Isotope
+                }
+            }
+            
+    	}
+    }
+}

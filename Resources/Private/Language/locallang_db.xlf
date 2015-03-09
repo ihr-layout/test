@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-03-05T17:30:44Z" product-name="il_isotope_images">
+		<header/>
+		<body>
+			<trans-unit id="tx_ilisotopeimages_domain_model_isotope">
+				<source>Isotope</source>
+			</trans-unit>
+			<trans-unit id="tx_ilisotopeimages_domain_model_isotope.isotope">
+				<source>Isotope</source>
+			</trans-unit>
+			<trans-unit id="sys_file_reference.tx_extbase_type.Tx_IlIsotopeImages_Isotope">
+				<source>Isotope Image Isotope</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
